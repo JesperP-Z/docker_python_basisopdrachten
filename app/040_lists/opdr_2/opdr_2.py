@@ -13,3 +13,7 @@ rivieren = list(rivier_info.keys())
 # rivieren is nu een list met alleen de riviernamen: ['rijn', 'maas', 'nijl']
 
 # Hier jouw code.....
+
+print("de", rivieren[0].capitalize(), "stroomt onder andere door", rivier_info[rivieren[0]][1].capitalize())
+
+exit()

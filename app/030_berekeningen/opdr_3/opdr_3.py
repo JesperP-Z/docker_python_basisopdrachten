@@ -1,16 +1,17 @@
 # Opdracht 3 tekstfuncties
-# Naam student:
-# Groep:
+# Naam student: Jesper Pot
+# Groep:ITFLEX  
 
 # Hier komt je code...
 x = 1
-y = ...
-print( ... )
+y = 2
+print(f"{x} + {y} = {x + y}")
 
 x = 2
-y = ...
-print( ... )
+y = 12.5
+print(f"{x} * {y} = {x * y}")
 
 x = 0
-y = ...
-print( ... )
+y = 1
+print(f"{x} + {y} = {x + y}")
+exit()
