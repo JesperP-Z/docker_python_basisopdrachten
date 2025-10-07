@@ -6,4 +6,17 @@
 
 # Hier start de for-loop....
 
-my_list = []
+from random import random
+import random  
+
+
+cijfers = []
+
+for i in range(1, 11):
+    cijfers.append(i)
+
+random.shuffle(cijfers)
+
+
+print(cijfers)
+exit()
